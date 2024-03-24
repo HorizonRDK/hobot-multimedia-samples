@@ -1,13 +1,14 @@
-# sample_usb_cam_4k60 使用说明
+English| [简体中文](./README_cn.md)
 
-## 编译
-3. 在当前目录下面敲make编译生成可执行文件sample_usb_cam
-4. 然后命令make install生成output
-5. 把编译生成得output目录拷贝到板子得/userdata目录
+# Instructions for using sample_usb_cam_4k60
 
-## 程序使用说明
-1.运行程序使用如下命令：
+## Compilation
+3. Type `make` in the current directory to compile and generate an executable file `sample_usb_cam`.
+4. Then use the command `make install` to generate the `output`.
+5. Copy the compiled `output` directory to the `/userdata` directory on the board.
+
+## Instructions for Program Usage
+1. Use the following command to run the program:
 ```bash
 sh run_usb_cam_imx415.sh
 ```
-
